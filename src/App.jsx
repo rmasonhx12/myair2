@@ -6,6 +6,7 @@ import Profile from './pages/Profile'
 import SignUp from './pages/SignUp'
 import SignIn from './pages/SignIn'
 import ForgotPassword from './pages/ForgotPassword'
+import Header from './components/Header'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
      <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/offers" element={<Offers />} />
