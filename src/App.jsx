@@ -1,4 +1,4 @@
-import './App.css'
+// firebase vite and react 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Offers from './pages/Offers'
